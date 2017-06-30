@@ -1,24 +1,21 @@
-README
+# Dataset
 
-Il dataset è disponibile all'indirizzo:
+The dataset is available at:
 
 http://www.cvlibs.net/datasets/kitti/raw_data.php
 
-Si prendono le immagini sincronizzate e rettificate.
+We used synced and rectified images.
 
-I principali video utilizzati nella sperimentazione sono:
+The main videos used during developement are:
 
 - 2011_09_26_drive_0005 (0.6 GB): http://kitti.is.tue.mpg.de/kitti/raw_data/2011_09_26_drive_0005/2011_09_26_drive_0005_sync.zip
 - 2011_09_26_drive_0018 (1.1 GB): http://kitti.is.tue.mpg.de/kitti/raw_data/2011_09_26_drive_0018/2011_09_26_drive_0018_sync.zip
 
 
-Le immagini utilizzate sono quelle a colori, quindi provenienti dalla camera 2 o 3.
-In una generica cartella del dataset sono situate in 2011_**_**_drive_0***_sync/image_0[2-3]/data
+Color images are used (coming from camera 2 or 3).
+In a generic dataset folder they can be found in `2011_**_**_drive_0***_sync/image_0[2-3]/data`
 
-I timestamps sono situati in 2011_**_**_drive_0***_sync/image_0[2-3]/timestamps.txt
+Timestamps can be found in `2011_**_**_drive_0***_sync/image_0[2-3]/timestamps.txt`
 
-I dati oxts sono situati in 2011_**_**_drive_0***_sync/oxts
-
-Nella cartella oxts sono presenti i timestamps dei dati GPS (timestamps.txt), il formato dei dati (dataformat.txt) e in 'data/' le informazioni ad ogni istante di rilevazione in un differente file.
-
-Insieme a questo documento si sono allegati per comodità anche il paper originale citato riguardo al dataset raw e lo schema di disposizione dei sensori nella macchina.
+OXTS data is situated in `2011_**_**_drive_0***_sync/oxts`
+In the OXTS folder are stored the GPS data timestamps (timestamps.txt), the data format (dataformat.txt) and under `data/` the informations collected at each datapoint sample (each in a different file)
