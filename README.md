@@ -3,6 +3,10 @@ Estimate object trajectories in an automotive context, using KITTI dataset, with
 
 A very detailed description of the implamentation is available in the `relazione.pdf` file (but in italian).
 
+[![TestImage1](https://s14.postimg.org/5p5utxja5/consistenza.png)](https://postimg.org/image/5p5utxja5/)
+
+[![TestImage2](https://s14.postimg.org/6fykzplnh/occlusioni.png)](https://postimg.org/image/6fykzplnh/)
+
 The project dependencies are the following Python packets (modules):
 - Pillow
 - Numpy
