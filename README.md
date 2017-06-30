@@ -1,5 +1,5 @@
 # ObjectTrajectories
-Estimate object trajectories in an automotive context, using KITTI dataset, with CNNs.
+Estimate object trajectories in an automotive context, using [KITTI dataset](http://www.cvlibs.net/datasets/kitti/index.php), with CNNs.
 
 A very detailed description of the implamentation is available in the `relazione.pdf` file (but in italian).
 
